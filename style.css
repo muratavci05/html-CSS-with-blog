@@ -1,0 +1,235 @@
+/* General Style*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+ul{
+    list-style: none;
+
+}
+
+a {
+text-decoration: none;    
+}
+
+.marginBottomMain{
+    margin-bottom: 15px;
+}
+
+
+/* Header */
+header{
+    background-color: rgb(239, 243, 244);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    
+}
+
+.logoContainer img{
+    width: 75;
+    height: 75px;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    color: #000;
+}
+
+nav ul a:hover{
+    cursor: pointer;
+    color: rgb(94, 173, 225);
+   
+}
+
+.button button{
+    padding: 5px 20px;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.button button:hover {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+
+.btnHeader{
+    display: flex;
+    gap: 10px;
+}
+
+.btnPrimary{
+    background-color: rgb(94, 173, 225);
+}
+
+.btnSecondary{
+    background-color: #cadaec;
+}
+
+/* Main */
+.mainContainer{
+width: 100%;
+height: calc(100vh - 155px);
+overflow-y: scroll;
+display: flex;
+margin-top: 10px;
+gap: 5px;
+padding: 5px;
+align-items: flex-start;
+}
+
+.mainContainer ul{
+    width: 100%;
+    
+}
+
+.sideContainer{
+    
+    min-height: 50px;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 rgb(22, 20, 20);
+    
+   
+}
+
+.sideContainer ul li{
+    padding: 10px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    
+}
+
+.sideContainer ul li:hover{
+    background-color:rgb(232, 232, 232) ;
+    cursor: pointer;
+}
+
+.sideContainer ul li a{
+    color: rgb(52,52,52);
+}
+
+.mainSide{
+    min-height: calc(100vh - 165px);
+    padding: 10px;
+    flex: 3;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 rgb(22, 20, 20);
+    
+
+}
+
+.blogContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    box-shadow: 0 0 10px 0 rgb(199, 199, 199);
+    
+}
+
+
+
+.blogLeft{
+    flex: 1;
+    
+    
+}
+
+.blog1{
+    background: url(./photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog2{
+    background: url(./images1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog3{
+    background: url(./image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog4{
+    background: url(./image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blogRight{
+ flex: 1;
+ padding: 20px 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 30px;
+    
+}
+
+.cursorTop{
+    position: absolute;
+    background-color: rgb(120, 223, 229);
+    bottom: 100px;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    box-shadow: 0 0 10px 0 rgb(52, 52, 52);
+    cursor: pointer;
+
+
+}
+
+.cursorTop:hover{
+    box-shadow:0 0 30px 0 rgb(52, 52, 52); ;
+}
+
+.cursorTop a{
+    color: rgb(15, 98, 153);
+    font-size:15px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Footer*/
+
+footer{
+    background-color: rgb(239, 243, 244);
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
